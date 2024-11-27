@@ -62,10 +62,13 @@ Ce projet contient les fichiers suivants :
 - **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission/soumission.csv)     
   Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
 
-- **Script Python** : [scripts.py](scripts/scripts.py)   
-  Ce fichier contient le code du modèle de Machine Learning utilisé, pour la prévision et le clustering, y compris l'entraînement du modèle, les prétraitements, et la validation.
+- **Script Python pour la Prédiction** : [Script prédiction.ipynb](scripts/Script%20prédiction.ipynb)  
+  Ce fichier contient le code pour prédire les défauts de paiement à partir des caractéristiques des clients.
 
-- **Clustering et les préconisations** : [article_segmentation.pdf](documentation/article_segmentation.pdf)   
+- **Script Python pour le Clustering** : [Script_clustering.ipynb](scripts/Script_clustering.ipynb)  
+  Ce fichier contient le code pour l'application du clustering et la segmentation des clients.
+  
+- **Clustering et les préconisations** : [Article_segmentation.pdf](documentation/Article_segmentation.pdf)   
   Un document détaillant la segmentation des clients en trois groupes (personas) et les stratégies commerciales proposées pour chaque segment.
 
 - **Base de données d'entraînement** : [training.csv](Base%20de%20données/base1/training.csv)  
