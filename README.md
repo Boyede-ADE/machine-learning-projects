@@ -54,3 +54,17 @@ J'ai employé le **K-means** pour classifier les clients en trois clusters, en m
      - **2: "Jeunes Professionnels"** : Clients jeunes, avec un revenu moyen et un potentiel de défaut modéré.
 
    Cette segmentation a permis de proposer des offres commerciales ciblées pour chaque groupe, adaptées à leurs profils financiers spécifiques.
+
+  ## 📁 Documents et fichiers du projet
+
+Ce projet contient les fichiers suivants :
+
+- **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission/soumission.csv)  
+  Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
+
+- **Script Python** : [scripts.py](scripts/scripts.py)  
+  Ce fichier contient le code du modèle de Machine Learning utilisé, pour la prévision et le clustering, y compris l'entraînement du modèle, les prétraitements, et la validation.
+
+- **Article sur la segmentation et les préconisations** : [article_segmentation.pdf](documentation/article_segmentation.pdf)  
+  Un document détaillant la segmentation des clients en trois groupes (personas) et les stratégies commerciales proposées pour chaque segment.
+
