@@ -68,3 +68,51 @@ Ce projet contient les fichiers suivants :
 - **Article sur la segmentation et les préconisations** : [article_segmentation.pdf](documentation/article_segmentation.pdf)  
   Un document détaillant la segmentation des clients en trois groupes (personas) et les stratégies commerciales proposées pour chaque segment.
 
+- **Base de données 1** : [base1.csv](basededonnées/base1/base1.csv)  
+  La première base de données utilisée est le fichier d’entraînement comportant **24 000 lignes**, qui correspondent à l’historique de 24 000 personnes débouchant ou non sur un défaut de paiement.
+
+- **Base de données 2** : [base2.csv](basededonnées/base2/base2.csv)  
+  La deuxième base de données, complémentaire à la première, est le fichier d’évaluation **vierge** comportant **6 000 lignes**, correspondant à l’historique de 6 000 autres personnes dont il faut "deviner" s'ils ont subi un défaut de paiement ou non.
+  L’objectif est de remplir la colonne **DEF** (défaut de paiement : 1 ou non : 0) pour les 6 000 identifiants.
+
+## 📝 Description des variables
+
+La description des variables dans les bases de données est la suivante :
+
+- **ID** : Identification de la ligne (ce n’est donc pas une variable, elle se trouve en première colonne du fichier).
+- **La variable à prédire (Y = "DEF")** : C’est une variable binaire qui indique un défaut de paiement (1 pour Oui, 0 pour Non). Elle se trouve en dernière colonne du fichier.
+  
+Les variables explicatives (X = …) sont les suivantes :
+- **X1 = "LIMIT_BAL"** : Montant du crédit donné (en euros). Il comprend à la fois le crédit à la consommation individuel et le crédit supplémentaire à la famille.
+- **X2 = "SEX"** : Sexe (1 = homme, 2 = femme).
+- **X3 = "EDUCATION"** : Niveau d’éducation (1 = école supérieure, 2 = université, 3 = lycée, 4,5 … = autres).
+- **X4 = "MARRIAGE"** : État civil (1 = marié, 2 = célibataire, 3 = autres).
+- **X5 = "AGE"** : Âge (en années).
+- **X6 – X11 = "PAY_1 … PAY_6"** : Historique des paiements passés. Nous avons suivi les enregistrements de paiement mensuels passés (d’avril à septembre 2005) comme suit :
+  - **X6** = L’état du remboursement en septembre 2005 ;
+  - **X7** = État de remboursement en août 2005 ;
+  - … ;
+  - **X11** = État de remboursement en avril 2005. L’échelle de mesure de l’état de remboursement est :
+    - -2 : Non utilisation du crédit ;
+    - -1 = Payé dûment ;
+    - 0 = Paiement fin de mois en cours ;
+    - 1 = Délai de paiement d’un mois ;
+    - 2 = Délai de paiement de deux mois ;
+    - … ;
+    - 8 = Délai de paiement de huit mois ;
+    - 9 = Retard de paiement de neuf mois et plus.
+
+- **X12 - X17 = "BILL_AMT1 … BILL_AMT_6"** : Montant du relevé de facture (en euros).
+  - **X12** = Montant du relevé de facture en septembre 2005 ;
+  - **X13** = Montant du relevé de facture en août 2005 ;
+  - … ;
+  - **X17** = Montant du relevé de facture en avril 2005.
+
+- **X18 - X23 = "PAY_AMT1 … PAY_AMT_6"** : Montant du paiement précédent (en euros).
+  - **X18** = Montant payé en septembre 2005 ;
+  - **X19** = Montant payé en août 2005 ;
+  - … ;
+  - **X23** = Montant versé en avril 2005.
+
+  
+  
