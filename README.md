@@ -59,19 +59,19 @@ J'ai employé le **K-means** pour classifier les clients en trois clusters, en m
 
 Ce projet contient les fichiers suivants :
 
-- **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission/soumission.csv)  
+- **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission/soumission.csv)     
   Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
 
-- **Script Python** : [scripts.py](scripts/scripts.py)  
+- **Script Python** : [scripts.py](scripts/scripts.py)   
   Ce fichier contient le code du modèle de Machine Learning utilisé, pour la prévision et le clustering, y compris l'entraînement du modèle, les prétraitements, et la validation.
 
-- **Article sur la segmentation et les préconisations** : [Clustering.pdf](documentation/Clustering.pdf)  
+- **Clustering et les préconisations** : [Clustering.pdf](documentation/Clustering.pdf)   
   Un document détaillant la segmentation des clients en trois groupes (personas) et les stratégies commerciales proposées pour chaque segment.
 
-- **Base de données 1** : [base1.csv](basededonnées/base1/base1.csv)  
+- **Base de données d'entraînement** : [training.csv](Base%20de%20données/base1/training.csv)  
   La première base de données utilisée est le fichier d’entraînement comportant **24 000 lignes**, qui correspondent à l’historique de 24 000 personnes débouchant ou non sur un défaut de paiement.
 
-- **Base de données 2** : [base2.csv](basededonnées/base2/base2.csv)  
+- **Base de données d'évaluation** : [evaluation.csv](Base%20de%20données/base2/evaluation.csv)
   La deuxième base de données, complémentaire à la première, est le fichier d’évaluation **vierge** comportant **6 000 lignes**, correspondant à l’historique de 6 000 autres personnes dont il faut "deviner" s'ils ont subi un défaut de paiement ou non.
   L’objectif est de remplir la colonne **DEF** (défaut de paiement : 1 ou non : 0) pour les 6 000 identifiants.
 
