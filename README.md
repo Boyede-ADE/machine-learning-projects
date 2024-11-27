@@ -65,7 +65,7 @@ Ce projet contient les fichiers suivants :
 - **Script Python** : [scripts.py](scripts/scripts.py)  
   Ce fichier contient le code du modèle de Machine Learning utilisé, pour la prévision et le clustering, y compris l'entraînement du modèle, les prétraitements, et la validation.
 
-- **Article sur la segmentation et les préconisations** : [article_segmentation.pdf](documentation/article_segmentation.pdf)  
+- **Article sur la segmentation et les préconisations** : [Clustering.pdf](documentation/Clustering.pdf)  
   Un document détaillant la segmentation des clients en trois groupes (personas) et les stratégies commerciales proposées pour chaque segment.
 
 - **Base de données 1** : [base1.csv](basededonnées/base1/base1.csv)  
