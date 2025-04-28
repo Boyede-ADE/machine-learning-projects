@@ -62,19 +62,19 @@ Ce projet contient les fichiers suivants :
 - **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission.csv)
   Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
 
-- **Script Python pour la Prédiction** : [Script prédiction.ipynb](scripts/Script%20prédiction.ipynb)  
+- **Script Python pour la Prédiction** : [Script prédiction.ipynb](Script%20prédiction.ipynb) 
   Ce fichier contient le code pour prédire les défauts de paiement à partir des caractéristiques des clients.
 
-- **Script Python pour le Clustering** : [Script_clustering.ipynb](scripts/Script_clustering.ipynb)  
+- **Script Python pour le Clustering** : [Script_clustering.ipynb](Script_clustering.ipynb)  
   Ce fichier contient le code pour l'application du clustering et la segmentation des clients.
   
-- **Clustering et les préconisations** : [Article_segmentation.pdf](documentation/Article_segmentation.pdf)   
+- **Clustering et les préconisations** : [Article_segmentation.pdf](Article_segmentation.pdf)   
   Un document détaillant la segmentation des clients en trois groupes (personas) et les stratégies commerciales proposées pour chaque segment.
 
-- **Base de données d'entraînement** : [training.csv](Base%20de%20données/base1/training.csv)  
+- **Base de données d'entraînement** : [training.csv](training.csv) 
   La première base de données utilisée est le fichier d’entraînement comportant **24 000 lignes**, qui correspondent à l’historique de 24 000 personnes débouchant ou non sur un défaut de paiement.
 
-- **Base de données d'évaluation** : [evaluation.csv](Base%20de%20données/base2/evaluation.csv)
+- **Base de données d'évaluation** : [evaluation.csv](evaluation.csv)
   La deuxième base de données, complémentaire à la première, est le fichier d’évaluation **vierge** comportant **6 000 lignes**, correspondant à l’historique de 6 000 autres personnes dont il faut "deviner" s'ils ont subi un défaut de paiement ou non.
   L’objectif est de remplir la colonne **DEF** (défaut de paiement : 1 ou non : 0) pour les 6 000 identifiants.
 
