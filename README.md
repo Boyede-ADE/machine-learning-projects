@@ -62,7 +62,7 @@ Ce projet contient les fichiers suivants :
 - **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission.csv)
   Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
 
-- **Script Python pour la Prédiction** : [Script_prediction.ipynb](script_prediction.ipynb)
+- **Script Python pour la Prédiction** : [Script_prédiction.ipynb](Script_prédiction.ipynb) 
   Ce fichier contient le code pour prédire les défauts de paiement à partir des caractéristiques des clients.
 
 - **Script Python pour le Clustering** : [Script_clustering.ipynb](Script_clustering.ipynb)  
