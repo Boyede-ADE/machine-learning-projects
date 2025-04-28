@@ -60,10 +60,10 @@ J'ai employé le **K-means** pour classifier les clients en trois clusters, en m
 Ce projet contient les fichiers suivants :
 
 - **Fichier de soumission avec les prévisions définitives** : [soumission.csv](soumission.csv)
-  Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
+   Ce fichier contient les données de base et les prévisions finales du modèle pour les clients à risque de défaut de paiement.
 
 - **Script Python pour la Prédiction** : [Script_prediction.ipynb](Script_prediction.ipynb)
-  Ce fichier contient le code pour prédire les défauts de paiement à partir des caractéristiques des clients.
+   Ce fichier contient le code pour prédire les défauts de paiement à partir des caractéristiques des clients.
 
 - **Script Python pour le Clustering** : [Script_clustering.ipynb](Script_clustering.ipynb)  
   Ce fichier contient le code pour l'application du clustering et la segmentation des clients.
